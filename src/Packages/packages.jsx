@@ -2,14 +2,16 @@ import React from 'react';
 import './packages.css'
 import '../shared.css'
 import { Link } from 'react-router-dom'
+import logo from '../images/icon.png'
 
 function Packages() {
   return (
     <div className="App">
+    <div className="backdrop"></div>
        <div class="background"></div>
     <header class="main-header">
         <div>
-            <Link className="main-header__brand" to="/">uHost</Link>
+            <Link className="main-header__brand" to="/"><img src={logo} alt="uHost - Your favorite hosting company"></img></Link>
         </div>
         <nav class="main-nav">
             <ul class="main-nav__items">

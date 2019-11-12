@@ -8,6 +8,7 @@ import logo from './images/icon.png'
 function App() {
   return (
     <div className="App">
+    <div className="backdrop"></div>
        <header class="main-header">
         <div>
             <Link className="main-header__brand" to="/"><img src={logo} alt="uHost - Your favorite hosting company"></img></Link>

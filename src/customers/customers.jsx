@@ -4,13 +4,15 @@ import './customers.css'
 import { Link } from 'react-router-dom'
 import customer1 from '../images/customer-1.jpg'
 import customer2 from '../images/customer-2.jpg'
+import logo from '../images/icon.png'
 
 function Customers() {
     return (
     <div>
-     <header class="main-header">
+     <div className="backdrop"></div>
+     <header className="main-header">
         <div>
-            <Link className="main-header__brand" to="/">uHost</Link>
+            <Link className="main-header__brand" to="/"><img src={logo} alt="uHost - Your favorite hosting company"></img></Link>
         </div>
      <nav class="main-nav">
             <ul class="main-nav__items">    
